@@ -1,0 +1,8 @@
+---
+version: "3.7"
+services:
+  fake-server:
+    container_name: fake-server
+    image: futuretea/server
+    ports:
+      - "10000:8080"
